@@ -2,8 +2,11 @@
   "name": "fsechat",
   "version": "0.0.1",
   "description": "fse chat room",
+  "main":"app.js",
+  "author": "Zhenshu Zhao",
   "dependencies": {
     "express": "4.14.0",
-    "socket.io": "1.4.8"
+    "socket.io": "1.4.8",
+    "mongoose": "4.5.10"
   }
 }
