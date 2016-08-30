@@ -12,7 +12,7 @@ server.listen(process.env.PORT || 3000);
 console.log('Server running');
 
 //database using mongodb
-mongoose.connect('mongodb://localhost/fsechat', function(err){
+mongoose.connect('mongodb://localhost/chatroom1', function(err){
 	if(err){
 		console.log(err);
 	} else{
